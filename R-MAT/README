@@ -1,0 +1,8 @@
+To run, edit the config file 'config.me' and set the correct values of
+n, m, a, b, c, & d.
+
+Make sure that a+b+c+d=1.
+
+Run as:
+
+$ ./GTgraph-rmat -c config.me -o /dev/stdout | python rmat-2-custom.py [# of start nodes] > graph.in
