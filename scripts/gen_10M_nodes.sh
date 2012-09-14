@@ -12,5 +12,5 @@
 #PBS -N bfs-graph-gen
 #PBS -V
 
-cd ../R-MAT/
-./GTgraph-rmat -c config.me -o /dev/stdout | python ./rmat-2-custom.py 1000 > graph-10M-100M-1k.in
+BASE='../R-MAT/'
+$BASE/GTgraph-rmat -c $BASE/config.me -o /dev/stdout | python $BASE/rmat-2-custom.py 1000 > graph-10M-100M-1k.in
