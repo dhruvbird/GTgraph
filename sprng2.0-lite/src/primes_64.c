@@ -8,7 +8,7 @@
 #define NO 0
 #define NPRIMES 10000
 
-int primes[NPRIMES];
+static int primes[NPRIMES];
 
 #ifdef __STDC__
 int init_prime_64(void)
