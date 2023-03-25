@@ -1,1 +1,12 @@
+# Object files
 *.o
+*.a
+
+# Binaries
+R-MAT/GTgraph-rmat
+SSCA2/GTgraph-ssca2
+random/GTgraph-random
+
+# Output artifacts
+*.gr
+log
